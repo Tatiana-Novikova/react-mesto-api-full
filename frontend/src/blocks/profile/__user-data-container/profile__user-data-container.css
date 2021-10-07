@@ -1,0 +1,10 @@
+.profile__user-data-container {
+  max-width: 100%;
+  width: max-content;
+}
+
+@media screen and (max-width: 1212px) {
+  .profile__user-data-container {
+    max-width: calc(100% - 19px*2);
+  }
+}

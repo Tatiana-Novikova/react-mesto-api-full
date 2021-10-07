@@ -1,0 +1,7 @@
+.form {
+  padding: 54px 36px 36px;
+  width: calc(100% - 36px*2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

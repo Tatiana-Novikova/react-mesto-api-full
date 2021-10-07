@@ -1,0 +1,10 @@
+.form__input_place_auth {
+  margin-top: 30px;
+  background-color: #000;
+  border-bottom: solid 2px #ccc;
+  color: #ccc;
+}
+
+.form__input_place_auth:first-child {
+  margin-top: 0;
+}

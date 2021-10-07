@@ -1,0 +1,15 @@
+.form__sign-in-link {
+  margin: 15px 0 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff; 
+  text-decoration: none;
+}
+
+@media screen and (max-width: 423px) {
+  .form__sign-in-link {
+    margin-top: 20px;
+  }
+}

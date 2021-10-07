@@ -1,0 +1,11 @@
+.form__submit-button_place_popups {
+  margin: 14px auto 0;
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 424px) {
+  .form__submit-button_place_popups {
+    font-size: 14px;
+  }
+}

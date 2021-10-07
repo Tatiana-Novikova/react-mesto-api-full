@@ -1,0 +1,12 @@
+.form__submit-button_place_auth {
+  margin: 216px auto 0;
+  background-color: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 424px) {
+  .form__submit-button_place_auth {
+    margin-top: 173px;
+    font-size: 16px;
+  }
+}

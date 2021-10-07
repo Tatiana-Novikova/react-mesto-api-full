@@ -1,0 +1,17 @@
+.profile__info-container {
+  margin: 22px 0 25px 0;
+  max-width: 576.6px;
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+}
+
+@media screen and (max-width: 1212px) {
+  .profile__info-container {
+    margin: 12px auto 15px;
+    padding-right: 15px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

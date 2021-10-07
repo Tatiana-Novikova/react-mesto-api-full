@@ -1,0 +1,8 @@
+.popup__content_place_info-tooltip{
+  max-width: 430px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center
+}
