@@ -30,9 +30,9 @@ const limiter = rateLimit({
   max: 100,
 });
 
+app.use(limiter);
 app.use(express.json());
 app.use(helmet());
-app.use(limiter);
 app.disable('x-powered-by');
 app.use(cookieParser());
 app.use(requestLogger);
